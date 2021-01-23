@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<head>
+  <link href="/normalize.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300&family=Roboto:wght@100&display=swap" rel="stylesheet">
+  <title>Tracey Hill - Blog Theme</title>
+  <style>
+    header {
+      text-align: center;
+      background: url('https://as1.ftcdn.net/jpg/03/25/26/28/240_F_325262898_NTmk1g5zymJe0nOLMWiPNyuhwuyWGOuT.jpg');
+      background-size: cover;
+      color: #666;
+      font-family: 'JetBrains Mono', monospace;
+    }
+    body {
+      font-family: 'Merriweather', serif;
+    }
+    a {
+      color: white;
+    }
+    h1 {
+      font-size: 70px;
+      font-family: 'JetBrains Mono', monospace;
+    }
+    h2 {
+        font-size: 26px;
+        font-family: 'JetBrains Mono', monospace;
+      }
+    img {
+      margin: 40px 0px 0px 0px;
+      border: 7px solid white;
+      border-radius: 20px;
+    }
+    ul {
+      padding: 10px;
+      background: rgba(0,0,0,0.5);
+    }
+    li {
+      display: inline;
+      padding: 0px 10px 0px 10px;
+    }
+    article {
+      max-width: 500px;
+      padding: 20px;
+      margin: 0 auto;
+    }
+    button {
+        background-color: #add8e6;
+        color: white;
+        border: none;
+        padding: 8 14
+      }
+    @media (max-width: 500px) {
+      h1 {
+        font-size: 36px;
+        padding: 5px;
+      }
+      li {
+        padding: 5px;
+        display: block;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="https://techprofile.blob.core.windows.net/images/RLEYVJ9GN0uaO5tzYii3gg.png?8D7ED7">
+    <h1>Tracey's New Code Adventures</h1>
+    <ul>
+      <li><a href="https://www.linkedin.com/in/tracey-hill-01152824/">About Me - LinkedIn</a></li>
+      <li><a href="https://markedit.io/">A Past Project - MarkedIt</a></li>
+      <li><a href="https://coch.pro/">A New Project - Coch Pro</a></li>
+    </ul>
+  </header>
+  <article>
+    <h2>How have you found yourself back in the realm of Frontend Web Development and Design?</h2>
+    <p> A passion project, fostering Women within a Pathways Project into ICT, via my teaching role has recently come to an end after two years and for this year I'd been looking for something to fill that gap. Also the pandemic lockdown inspired me to try and create a solution for all the non-technical folk out there who rely on one-to-one/face-to-face coaching as their primary income to easily transition to an online format. Thus Coch Pro was launched. I'm really excited about it. Not just the new project but being back in the stack and creating useful products online that people use and love because they enhance thier lives outside of the online space - reality is a better place for them as a result.</p>
+    <button>Like</button>
+  </article>
+  <article>
+    <h2>What is it like returning to industry Frontend Web Development and Design after teaching it?</h2>
+    <p>I've approached these GA tasks as though I'm making a total career shift into Frontend Web Development and Design (FWDD) - like many of my students. While I haven't been totally out of the loop in the developments within the FWDD sphere, having it as part of my VET teaching portfolio, I recognise that 2 years out of the trenches has come with significant changes to popular frameworks and web-stacks. I've been teaching a curriculum that focuses on WordPress and PHP and with Coch Pro I've moved into a React, GraphQL, Fauna DB, Serverless space. I love the coding and creating side of this industry.</p>
+    <button>Like</button>
+  </article>
+  <article>
+    <h2>Why create a basic code portfolio?</h2>
+    <p>In essence, after 10+ years of developing in various fascets, it is a showcase that proves that I can do what I talk about in my resume. Rather than telling prospective employers about my skills, I've created some basic 'must haves' here to showcase my skills. I've gone beyond work samples showing some of my design ability and tried to express my personality by highlighting critical soft skills too.</p>
+    <button>Like</button>
+  </article>
+  <script>
+    $("button").on("click", function() {
+      alert("Clicked!");
+    });
+  </script>
+</body>
